@@ -15,6 +15,9 @@ environment:
   KIVY_USE_SETUPTOOLS: 1
   KIVY_SPLIT_EXAMPLES: 1
   matrix:
+  - PYVER: 36
+    BITTNESS: 64
+    COMPILER: msvc
   - PYVER: 27
     BITTNESS: 86
     COMPILER: mingw
